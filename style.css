@@ -1,0 +1,71 @@
+body {
+    background: rgb(27, 27, 27);
+    background-image: url("gim.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page-wrapper{
+    font-family: 'Ubuntu', sans-serif;
+    width: 95%;
+    margin: auto;
+}
+
+.logo{
+    width: 100px;
+    float: left;
+}
+
+.logo h4{
+    color: white;
+    text-align: center;
+    font-weight: normal;
+}
+
+.logo-img{
+    background-image: url("logo.png");
+    background-size: 120%;
+    background-position: center;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: -12px;
+}
+
+.contacts{
+    float: right;
+}
+
+.contact{
+    display: inline-block;
+    background: rgb(135,234,148);
+    width: 72px;
+    padding: 7px 0px;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.contact:hover{
+    background: rgb(145, 253, 159);
+}
+
+.content{
+    width: fit-content;
+    margin: auto;
+}
+
+.content ul li{
+    color: white;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+}
+
+.content ul li:first-child{
+    float: left;
+}
+
+a{
+    text-decoration: none;
+    color: unset;
+} 
